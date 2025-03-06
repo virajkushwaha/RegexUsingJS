@@ -17,7 +17,8 @@ class Pincode{
 try{
     let pincode = new Pincode("400088");
     console.log(pincode);
-  
+    let pincode2 = new Pincode("A400088"); 
+    console.log("Valid:", pincode2);
 }
 catch(e){
     console.log(e);
